@@ -8,8 +8,8 @@ authors = ["encrypt0r <encrypt0r-x@protonmail.com>"]
 target = "x86_64-unknown-linux-musl"
 
 [[bin]]
-name = "testnet"
-path = "api/testnet.rs"
+name = "index"
+path = "index.rs"
 
 [dependencies]
 tokio = "1.33.0"
