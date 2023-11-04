@@ -1,0 +1,16 @@
+[package]
+name = "vercRust"
+version = "0.1.0"
+edition = "2021"
+authors = ["encrypt0r <encrypt0r-x@protonmail.com>"]
+
+[build]
+target = "x86_64-unknown-linux-musl"
+
+[[bin]]
+name = "testnet"
+path = "api/testnet.rs"
+
+[dependencies]
+tokio = "1.33.0"
+vercel_runtime = "1.1.0"
