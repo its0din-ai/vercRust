@@ -9,5 +9,5 @@ pub async fn handler(_req: Request) -> Result<Response<Body>, Error> {
     Ok(Response::builder()
         .status(StatusCode::OK)
         .header("Content-Type", "application/json")
-        .body(Body::Text("encrypt0r TESTNET!".into()))?)
+        .body(Body::from("{\"[INFO]\":\"encrypt0r RUST Testnet\"}"))?)
 }
